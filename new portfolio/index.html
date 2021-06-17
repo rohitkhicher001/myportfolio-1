@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="page-loader">
+     
+</div>
+
+    <div class="bg-circles">
+        <div class="circle-1"></div>
+        <div class="circle-2"></div>
+        <div class="circle-3"></div>
+        <div class="circle-4"></div>
+
+    </div>
+
+<div class="overlay">
+
+</div>
+
+<div class="main">
+
+    <header class="header">
+        <div class="container">
+            <div class="row flex-end">
+                <button type="button" class="nav-toggler">
+                    <span></span>
+                </button>
+                <nav class="nav">
+                    <div class="nav-inner">
+                        <ul>
+                            <li><a href="#home" class="nav-item link-item">home</a></li>
+                            <li><a href="#about" class="nav-item link-item">about</a></li>
+                            <li><a href="#portfolio" class="nav-item link-item">portfolio</a></li>
+                            <li><a href="#contact" class="nav-item link-item">contact</a></li>
+
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="home-section align-items-center active" id='home'>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="home-text">
+                    <p>Hello, I'm</p>
+                    <h1>Rohit Kumar</h1>
+                    <h2>front end developer</h2>
+                    <a href="#about" class="btn link-item">more about me</a>
+                    <a href="#portfolio" class="btn link-item">portfolio</a>
+                </div>
+                <div class="home-img">
+                    <div class="img-box">
+                        <img src="img/profile-img.jpeg" alt="profile-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="about-section sec-padding" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2>
+                    about me
+                    </h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="about-img">
+                    <img src="img/about-img.jpeg" alt="about-img">
+                </div>
+            
+            <div class="about-text">
+                <p>I am a Front-end Developer and currently a student pursuing Btech computer science. I create websites that are responsive, easy to use, and user-friendly.
+                    My main experience is in front-end development but I also have a passion for coding. 
+                    I practice coding at:<br/>
+                    <a class="about-links" href="https://www.hackerrank.com/rohitkhicher001">https://www.hackerrank.com/rohitkhicher001</a>
+                    <a class="about-links" href="https://leetcode.com/Rohitkhicher00/">https://leetcode.com/Rohitkhicher00/</a>
+                    <br/>
+                    <a class="about-links" href="https://github.com/rohitkhicher001">https://github.com/rohitkhicher001</a>
+                    </p>
+                <h3>skills</h3>
+                <div class="skills">
+                    <div class="skill-item">html</div>
+                    <div class="skill-item">css</div>
+                    <div class="skill-item">javasrcipt</div>
+                    <div class="skill-item">bootstrap</div>
+                    <div class="skill-item">reactjs</div>
+                    <div class="skill-item">materialui</div>
+                    <div class="skill-item">c++</div>
+                    <div class="skill-item">Data structures</div>
+                    <div class="skill-item">algorithm</div>
+                    <div class="skill-item">Git/Github</div>
+
+
+                </div>
+                <div class="about-tabs">
+                    <button class="tab-item active" id='change' onclick='changedisplay()' data-target="#education ">Education</button>
+                </div>
+
+                <div class="tab-content active" id="education">
+                    <div class="timeline">
+
+                        <div class="timeline-item">
+                            <span class="date">2019 - 2023</span>
+                            <h4>Bachelor of technology (Computer Science) - <span>Vellore institute of technology</span> </h4>
+                            <p>CGPA: 7.6</p>
+                        </div>
+                        <div class="timeline-item">
+                            <span class="date">2017 - 2019</span>
+                            <h4>Senior secondary - <span>Rajat Vidyapeeth sr. sec. school</span> </h4>
+                            <p>Percentage: 84.6%</p>
+                        </div>
+                    </div>
+                    <a href="cv.pdf" target="_blank" class="btn">Download CV</a>
+                    <a href="#contact" class="btn link-item">contact me</a>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="portfolio-section sec-padding" id='portfolio'>
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2>
+                        recent work
+                    </h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="portfolio-item">
+
+                    <div class="portfolio-item-thumbnail">
+                        <img src="img/portfolio/1.png" alt="portfolio item thumbnail">
+                    </div>
+                    <h3 class="portfolio-item-title">Portfolio-generator</h3>
+                    <button type="button" class="btn view-project-btn">view project</button>
+                    <div class="portfolio-item-details">
+                        <div class="description">
+                            <p>you can enter your resume details and it will fill those details in a tempelate.</p>
+
+                        </div>
+                        <div class="general-info">
+                            <ul>
+                                <li>Created - <span>22 May 2021</span></li>
+                                <li>technologies used - <span>Html, Css, ReactJS, Bootstrap</span></li>
+                                <li>Role - <span>frontend</span></li>
+                                <li>View Online - <span> <a href="http://resuming.herokuapp.com" target="_blank"> http://resuming.herokuapp.com</a></span></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+
+                    <div class="portfolio-item-thumbnail">
+                        <img src="img/portfolio/2.png" alt="portfolio item thumbnail">
+                    </div>
+                    <h3 class="portfolio-item-title">Library Management</h3>
+                    <button type="button" class="btn view-project-btn">view project</button>
+                    <div class="portfolio-item-details">
+                        <div class="description">
+                            <p>A librarian can manage the available books and add new books to the list.</p>
+
+                        </div>
+                        <div class="general-info">
+                            <ul>
+                                <li>Created - <span>10 june 2021</span></li>
+                                <li>technologies used - <span>Html, Css, ReactJS, bootstrap, firebase, materialUI</span></li>
+                                <li>Role - <span>frontend and backend</span></li>
+                                <li>View Online - <span> <a href="https://librarymanager.netlify.app" target="_blank"> https://librarymanager.netlify.app</a></span></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+
+                    <div class="portfolio-item-thumbnail">
+                        <img src="img/portfolio/3.png" alt="portfolio item thumbnail">
+                    </div>
+                    <h3 class="portfolio-item-title">Weather-app</h3>
+                    <button type="button" class="btn view-project-btn">view project</button>
+                    <div class="portfolio-item-details">
+                        <div class="description">
+                            <p>enter the name of your city and you can see weather of that city</p>
+
+                        </div>
+                        <div class="general-info">
+                            <ul>
+                                <li>Created - <span>11 june 2021</span></li>
+                                <li>technologies used - <span>Html, Css, ReactJS, Api, Bootstrap</span></li>
+                                <li>Role - <span>frontend</span></li>
+                                <li>View Online - <span> <a href="https://myweather01.netlify.app" target="_blank"> https://myweather01.netlify.app</a></span></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+
+                    <div class="portfolio-item-thumbnail">
+                        <img src="img/portfolio/4.png" alt="portfolio item thumbnail">
+                    </div>
+                    <h3 class="portfolio-item-title">Portfolio</h3>
+                    <button type="button" class="btn view-project-btn">view project</button>
+                    <div class="portfolio-item-details">
+                        <div class="description">
+                            <p>Simple portfolio app.</p>
+
+                        </div>
+                        <div class="general-info">
+                            <ul>
+                                <li>Created - <span>11 june 2021</span></li>
+                                <li>technologies used - <span>Html, Css, ReactJS, bootstrap</span></li>
+                                <li>Role - <span>frontend</span></li>
+                                <li>View Online - <span> <a href="https://portfolio10.netlify.app" target="_blank">https://portfolio10.netlify.app</a></span></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+
+                    <div class="portfolio-item-thumbnail">
+                        <img src="img/portfolio/5.png" alt="portfolio item thumbnail">
+                    </div>
+                    <h3 class="portfolio-item-title">My Portfolio</h3>
+                    <button type="button" class="btn view-project-btn">view project</button>
+                    <div class="portfolio-item-details">
+                        <div class="description">
+                            <p>My improved personal portfolio website</p>
+
+                        </div>
+                        <div class="general-info">
+                            <ul>
+                                <li>Created - <span>18 june 2021</span></li>
+                                <li>technologies used - <span>Html, Css, javasrcipt</span></li>
+                                <li>Role - <span>frontend</span></li>
+                                <li>View Online - <span> <a href="#" target="_blank">https://myportfolio105.netlify.app</a></span></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div>
+    </section>
+
+
+    <section  class="contact-section sec-padding" id='contact'>
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2>contact me</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="contact-form">
+                    <form>
+                        <div class="row">
+                            <div class="input-group">
+                                <input type="text" placeholder="Name" class="input-control" required>
+                            </div>
+                            <div class="input-group">
+                                <input type="text" placeholder="Email" class="input-control" required>
+                            </div>
+                            <div class="input-group">
+                                <input type="text" placeholder="Subject" class="input-control" required>
+                            </div>
+                            <div class="input-group">
+                                <textarea placeholder='Message' class="input-control" required></textarea>
+                            </div>
+                            <div class="submit-btn">
+                                <button type="submit" class="btn">send message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <div class="contact-info-item">
+                        <h3>email</h3>
+                        <p>rohitkhicher001@gmail.com</p>
+                    </div>
+                    <div class="contact-info-item">
+                        <h3>Phone</h3>
+                        <p>91 8279042311</p>
+                    </div>
+                    <div class="contact-info-item">
+                        <h3>follow me</h3>
+                        <div class="social-links">
+                            <a href="https://twitter.com/RohitKhicher5" target="_blank"><i><i class="fa fa-twitter"></i></i></a>
+                            <a href="https://www.instagram.com/irohitkhicher/" target="_blank"><i><i class="fa fa-instagram"></i></i></a>
+                            <a href="https://github.com/rohitkhicher001" target="_blank"><i><i class="fa fa-github"></i></i></a>
+                            <a href="https://www.linkedin.com/in/rohit-kumar-38b945189/" target="_blank"><i><i class="fa fa-linkedin"></i></i></a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+</div>
+
+
+<div class="portfolio-popup">
+    <div class="pp-inner">
+        <div class="pp-content">
+            <div class="pp-header">
+                <button type="button" class="btn pp-close">close</button>
+                <div class="pp-thumbnail">
+                    <img src="img/portfolio/3.jpg" alt="pp-thumbnail">
+                </div>
+                <h3></h3>
+            </div>
+            <div class="pp-body">
+               
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="./index.js"></script>
+</body>
+</html>
